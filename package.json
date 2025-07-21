@@ -1,0 +1,36 @@
+{
+    "name": "discordbot",
+    "type": "module",
+    "version": "1.0.0",
+    "description": "",
+    "main": "src/index.ts",
+    "scripts": {
+        "bot": "tsx src/index.js",
+        "dev": "tsx --watch src/index.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/l3x61/discordbot.git"
+    },
+    "keywords": [],
+    "author": "l3x61",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/l3x61/discordbot/issues"
+    },
+    "homepage": "https://github.com/l3x61/discordbot#readme",
+    "devDependencies": {
+        "@eslint/js": "^9.31.0",
+        "@types/node": "^24.0.15",
+        "eslint": "^9.31.0",
+        "globals": "^16.3.0",
+        "tsx": "^4.20.3",
+        "typescript": "^5.8.3",
+        "typescript-eslint": "^8.37.0"
+    },
+    "dependencies": {
+        "discord.js": "^14.21.0",
+        "dotenv": "^17.2.0",
+        "fs": "^0.0.1-security"
+    }
+}
